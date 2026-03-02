@@ -1,0 +1,106 @@
+site_name: MUSoD Institutional Memory & Living Documentation
+site_description: Institutional memory, workflows, and operational documentation for MUSoD systems.
+repo_url: https://github.com/<ORG_OR_USER>/musod-imld
+repo_name: musod-imld
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.svg
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    # Light mode (optional)
+    - scheme: default
+      primary: custom
+      secondary: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode (recommended default)
+    - scheme: slate
+      primary: custom
+      secondary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+
+  - Systems:
+      - Systems Index: systems/index.md
+      - MusodDjango:
+          - Overview: systems/musoddjango/index.md
+          - Modules:
+              - Modules Index: systems/musoddjango/modules/index.md
+              - Absence Requests:
+                  - Overview: systems/musoddjango/modules/absence_requests/index.md
+                  - Faculty Guide: systems/musoddjango/modules/absence_requests/faculty_guide.md
+                  - Student Guide: systems/musoddjango/modules/absence_requests/student_guide.md
+              - Tracking:
+                  - Overview: systems/musoddjango/modules/tracking/index.md
+                  - Faculty Guide: systems/musoddjango/modules/tracking/faculty_guide.md
+                  - Student Guide: systems/musoddjango/modules/tracking/student_guide.md
+              - MySimLab:
+                - Overview: systems/musoddjango/modules/mysimlab/index.md
+                - Faculty Overview: systems/musoddjango/modules/mysimlab/faculty_overview.md
+              - Tech: systems/musoddjango/tech.md
+              - Ops: systems/musoddjango/ops.md
+              - Links: systems/musoddjango/links.md
+
+      - ETL PDF Generation:
+        - Overview: systems/etl/index.md
+        - Links: systems/etl/links.md
+        - Ops: systems/etl/ops.md
+      - Phone API:
+        - Overview: systems/phone_api/index.md
+        - Links: systems/phone_api/links.md
+        - Ops: systems/phone_api/ops.md
+      - axiUm:
+        - Overview: systems/axium/index.md
+        - Links: systems/axium/links.md
+        - Guide: systems/axium/guide.md
+      - X-Ray Interface:
+        - Overview: systems/xray_interface/index.md
+        - Links: systems/xray_interface/links.md
+        - Ops: systems/xray_interface/ops.md
+
+  - Guides:
+      - guides/index.md
+      - Faculty Guides: guides/faculty/index.md
+      - Student Guides: guides/students/index.md
+
+  - Technology:
+      - Overview: tech/index.md
+      - Landscape: tech/landscape.md
+
+  - Operations:
+      - Ops Index: ops/index.md
+      - Support Model: ops/support_model.md
+      - Git Divergent Branches: ops/git_divergent_branches.md
+      - SSL Certificate Updates: ops/ssl_certifcates_updates.md
+

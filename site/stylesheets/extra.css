@@ -1,0 +1,116 @@
+/* ============================
+   MUSoD Brand Theme
+   ============================ */
+
+/* Primary + Secondary */
+:root {
+  --md-primary-fg-color: #003366;        /* Dark Blue */
+  --musod-blue: #003366;
+  --md-primary-fg-color--light: #1a4f85;
+  --md-primary-fg-color--dark: #002244;
+
+  --md-secondary-fg-color: #FFCD02;      /* Gold */
+  --musod-gold: #FFCD02;
+  --md-secondary-fg-color--light: #ffe066;
+  --md-secondary-fg-color--dark: #e6b800;
+
+}
+
+/* ============================
+   Light Mode (default)
+   ============================ */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--musod-blue);
+
+  /* Use light blue for visibility */
+  --md-secondary-fg-color: var(--musod-light-blue);
+
+  --md-typeset-a-color: #003366;
+}
+
+/* Dark mode fine-tuning */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--musod-blue);
+
+  /* Gold works beautifully on dark */
+  --md-secondary-fg-color: var(--musod-gold);
+
+  /* --md-default-bg-color: #0e1a2b; */
+  --md-default-fg-color: #e6eef7;
+  --md-typeset-color: #e6eef7;
+  --md-code-bg-color: #0b1320;
+}
+
+/* ============================
+   Accent Colors (Controlled)
+   ============================ */
+
+:root {
+  --musod-light-blue: #439fdd;
+  --musod-orange: #F7941D;
+  --musod-green: #6BA539;
+}
+
+/* Accent usage patterns */
+.musod-accent-info {
+  border-left: 4px solid var(--musod-light-blue);
+}
+
+.musod-accent-warning {
+  border-left: 4px solid var(--musod-orange);
+}
+
+.musod-accent-success {
+  border-left: 4px solid var(--musod-green);
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--md-secondary-fg-color);
+}
+
+.md-typeset a:hover {
+  color: var(--musod-light-blue);
+}
+
+/* Tables */
+.md-typeset table thead {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.md-typeset table tbody tr:hover {
+  background-color: rgba(255, 205, 2, 0.08);
+}
+
+/* Admonitions */
+.md-typeset .admonition.note {
+  border-left-color: var(--musod-light-blue);
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: var(--musod-orange);
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: var(--musod-green);
+}
+
+/* Sidebar nav readability */
+[data-md-color-scheme="default"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="default"] .md-nav__link:hover,
+[data-md-color-scheme="default"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link:focus {
+  color: var(--md-secondary-fg-color);
+}
+
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+  color: var(--md-secondary-fg-color);
+  font-weight: 600;
+}
