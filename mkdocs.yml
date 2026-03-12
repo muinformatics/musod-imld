@@ -68,6 +68,9 @@ nav:
               - MySimLab:
                 - Overview: systems/musoddjango/modules/mysimlab/index.md
                 - Faculty Overview: systems/musoddjango/modules/mysimlab/faculty_overview.md
+              - Rounds:
+                - Overview: systems/musoddjango/modules/rounds/index.md
+                - Team Grading: systems/musoddjango/modules/rounds/Rounds-Team_Grading.md
               - Tech: systems/musoddjango/tech.md
               - Ops: systems/musoddjango/ops.md
               - Links: systems/musoddjango/links.md
