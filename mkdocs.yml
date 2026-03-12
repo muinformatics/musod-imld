@@ -1,6 +1,6 @@
 site_name: MUSoD Institutional Memory & Living Documentation
 site_description: Institutional memory, workflows, and operational documentation for MUSoD systems.
-repo_url: https://github.com/<ORG_OR_USER>/musod-imld
+repo_url: https://muinformatics.github.io/musod-imld/
 repo_name: musod-imld
 
 theme:
