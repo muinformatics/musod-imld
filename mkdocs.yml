@@ -101,9 +101,15 @@ nav:
       - Overview: tech/index.md
       - Landscape: tech/landscape.md
 
+  - Development:
+      - Development Index: development/index.md
+      - Git Workflow: development/git_workflow/index.md
+      - SOP Policies: development/sop_policies/index.md
+      # - Testing: development/testing.md
+      # - CI/CD: development/ci_cd.md
+
   - Operations:
       - Ops Index: ops/index.md
       - Support Model: ops/support_model.md
-      - Git Divergent Branches: ops/git_divergent_branches.md
       - SSL Certificate Updates: ops/ssl_certifcates_updates.md
 
