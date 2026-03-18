@@ -71,6 +71,8 @@ nav:
               - Rounds:
                 - Overview: systems/musoddjango/modules/rounds/index.md
                 - Team Grading: systems/musoddjango/modules/rounds/Rounds-Team_Grading.md
+              - Rounds Management:
+                - Overview: systems/musoddjango/modules/rounds_management/index.md
               - Tech: systems/musoddjango/tech.md
               - Ops: systems/musoddjango/ops.md
               - Links: systems/musoddjango/links.md
@@ -113,3 +115,5 @@ nav:
       - Support Model: ops/support_model.md
       - SSL Certificate Updates: ops/ssl_certifcates_updates.md
 
+  - Knowledge Transfer:
+      - KT Index: knowledge_transfer/index.md

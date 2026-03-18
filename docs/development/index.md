@@ -9,7 +9,3 @@ Module-specific faculty guides for managing and using MUSoD systems.
 
 ### [Git/GitHub Workflow](./git_workflow/index.md)
 Module-specific student guides for navigating and using MUSoD systems.
-
----
-
-Each guide provides role-specific instructions and workflows for the various MusodDjango modules and other systems.

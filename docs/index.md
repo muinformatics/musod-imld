@@ -12,6 +12,7 @@ Internal nickname: **“Arms Around”** — a one-stop hub for MUSoD applicatio
 
 ## Start Here
 - [Systems Index](systems/index.md)
-- [Operations](ops/index.md)
-- [Faculty Guide](guides/faculty/index.md)
-- [Student Guide](guides/students/index.md)
+- [Guides Index](guides/index.md)
+- [Technology Index](tech/index.md)
+- [Development Index](development/index.md)
+- [KT Index](knowledge_transfer/index.md)
