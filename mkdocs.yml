@@ -61,6 +61,10 @@ nav:
                   - Overview: systems/musoddjango/modules/absence_requests/index.md
                   - Faculty Guide: systems/musoddjango/modules/absence_requests/faculty_guide.md
                   - Student Guide: systems/musoddjango/modules/absence_requests/student_guide.md
+              - Assessment Reporting (MSL):
+                  - Overview: systems/musoddjango/modules/assessment_reporting/index.md
+              - External Rotations:
+                  - Overview: systems/musoddjango/modules/external_rotations  /index.md
               - Tracking:
                   - Overview: systems/musoddjango/modules/tracking/index.md
                   - Faculty Guide: systems/musoddjango/modules/tracking/faculty_guide.md
