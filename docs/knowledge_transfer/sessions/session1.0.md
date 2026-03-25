@@ -7,7 +7,7 @@ Presenter: Tom Wirtz
 
 ## 🎥 Watch Recording
 
-[▶️ Launch Browser](../../assets/knowledge_transfer/videos/Data%20Extraction%20from%20axiUm-20260205_100244-Meeting%20Recording.mp4)
+[▶️ Launch Browser](../../assets/knowledge_transfer/videos/Data%20Extraction-20260310_095814-Meeting%20Recording.mp4)
 
 ---
 

@@ -64,7 +64,7 @@ nav:
               - Assessment Reporting (MSL):
                   - Overview: systems/musoddjango/modules/assessment_reporting/index.md
               - External Rotations:
-                  - Overview: systems/musoddjango/modules/external_rotations  /index.md
+                  - Overview: systems/musoddjango/modules/external_rotations/index.md
               - Tracking:
                   - Overview: systems/musoddjango/modules/tracking/index.md
                   - Faculty Guide: systems/musoddjango/modules/tracking/faculty_guide.md
