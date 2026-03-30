@@ -20,8 +20,8 @@
 - Repo-level maintenance guidance is documented in `docs/development/maintaining_this_hub.md`.
 - Treat `docs/` and `mkdocs.yml` as the maintained source for the site.
 - Treat `site/` as generated output, not the primary editing location.
-- Material for MkDocs reference: https://squidfunk.github.io/mkdocs-material/reference/
-- MkDocs documentation: https://www.mkdocs.org/
+- [Material for MkDocs reference](https://squidfunk.github.io/mkdocs-material/reference/)
+- [MkDocs documentation](https://www.mkdocs.org/)
 
 
 ## Converting word docs to .md

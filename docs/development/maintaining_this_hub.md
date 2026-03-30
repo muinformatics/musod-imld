@@ -218,5 +218,5 @@ At a high level, the workflow:
 
 ## Additional Reference Links
 
-- Material for MkDocs reference: https://squidfunk.github.io/mkdocs-material/reference/
-- MkDocs documentation: https://www.mkdocs.org/
+- [Material for MkDocs reference](https://squidfunk.github.io/mkdocs-material/reference/)
+- [MkDocs documentation](https://www.mkdocs.org/)
