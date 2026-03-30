@@ -16,6 +16,13 @@
 - The sidebar drawer is maintained in the `mkdocs.yml` in the root directory!
 - The rest of the system uses the various leveled `index.md` files as a structure for branching or direct display. 
 
+## Maintainers
+- Repo-level maintenance guidance is documented in `docs/development/maintaining_this_hub.md`.
+- Treat `docs/` and `mkdocs.yml` as the maintained source for the site.
+- Treat `site/` as generated output, not the primary editing location.
+- Material for MkDocs reference: https://squidfunk.github.io/mkdocs-material/reference/
+- MkDocs documentation: https://www.mkdocs.org/
+
 
 ## Converting word docs to .md
 pandoc input.docx \

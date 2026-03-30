@@ -109,6 +109,7 @@ nav:
 
   - Development:
       - Development Index: development/index.md
+      - Maintaining This Hub: development/maintaining_this_hub.md
       - Git Workflow: development/git_workflow/index.md
       - SOP Policies: development/sop_policies/index.md
       # - Testing: development/testing.md
