@@ -72,6 +72,8 @@ nav:
               - MySimLab:
                 - Overview: systems/musoddjango/modules/mysimlab/index.md
                 - Faculty Overview: systems/musoddjango/modules/mysimlab/faculty_overview.md
+              - Phone API:
+                - Overview: systems/musoddjango/modules/phone_api_manager/index.md
               - Rounds:
                 - Overview: systems/musoddjango/modules/rounds/index.md
                 - Team Grading: systems/musoddjango/modules/rounds/Rounds-Team_Grading.md
